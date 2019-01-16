@@ -23,7 +23,6 @@
               <td v-for="(h, idxH) in HORIZONTAL" :key="idxH"
                   colspan="1">
                   <span :class="{'is-not-block' : gameTable[idxV][idxH] <= 0, 'is-block': gameTable[idxV][idxH] === 1 || gameTable[idxV][idxH] === 2}">
-                    {{gameTable[idxV][idxH]}}
                   </span>
               </td>
             </tr>
